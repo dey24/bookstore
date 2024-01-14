@@ -1,6 +1,7 @@
 import express from "express";
 import { Book } from "../model/bookModel.js";
 
+//This is where we define the routes.
 const router = express.Router();
 
 //Route to save a book

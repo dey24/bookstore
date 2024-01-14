@@ -5,6 +5,8 @@ import { Book } from "./model/bookModel.js";
 import bookRoutes from "./routes/bookRoutes.js";
 import cors from "cors";
 
+//this is the like the grandparent component, over here we connect mongoose, for our backend to send data to mongoDB. Also here we will 
+// import the routes also and append it to a parent Url such as /books/routes. www.google.com/books is the parent url.
 
 const app = express();
 

@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 const {Schema} = mongoose;
 
+//In this file we describe the schema, means, in which format the data will be inserted in the MongoDB server.
 const bookSchema = new Schema(
     {
         title: {
